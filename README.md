@@ -7,6 +7,7 @@ Der biblatex-Bibliografiestil iest verhält sich wie der Standardstil numeric-co
 
 - Autoren- Herausgeber- und Übersetzerangabe als Nachname, Vorname
 - durchgehende Angabe der Vornamen als Initialen
+- Doppelpunkt nach dem letzten Autoren- Herausgeber- und Übersetzernamen
 
 Damit wird eine Vorgabe des Instituts für Eisen- und Stahltechnologie der TU Bergakademie Freiberg umgesetzt.
 
