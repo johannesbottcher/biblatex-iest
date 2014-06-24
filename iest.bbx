@@ -959,17 +959,24 @@
 \DeclareBibliographyOption{subentry}[true]{%
   \setbool{bbx:subentry}{#1}}
 
-% Anpassung Namensformat für IEST 28.05.2014
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BEGINN Anpassung Namensformat für IEST 24.06.2014
+												   
+% Namensformat: Nachname, V.						
 \DeclareNameFormat{tubafshort}{%
 \usebibmacro{name:last-first}{#1}{#4}{#5}{#7}%
 \usebibmacro{name:andothers}}
 
+% neues Namensformat für alle Namen wählen
 \DeclareNameAlias{author}{tubafshort}
 \DeclareNameAlias{editor}{tubafshort}
 \DeclareNameAlias{translator}{tubafshort}
 
+% Namensfelder mit Doppelpunkt abschließen
 \renewcommand*{\labelnamepunct}{\addcolon\addspace}
-% Ende der Anpassungen
+
+% ENDE der Anpassungen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \DeclareFieldFormat{bibentrysetcount}{\mkbibparens{\mknumalph{#1}}}
 \DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
