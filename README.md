@@ -11,13 +11,13 @@ Der biblatex-Bibliografiestil iest verhält sich wie der Standardstil numeric-co
 
 Damit wird eine Vorgabe des Instituts für Eisen- und Stahltechnologie der TU Bergakademie Freiberg umgesetzt.
 
+Ein Artikel über den Stil findet sich unter https://github.com/Ekkehardt/dok-biblatex-iest
+
 Installation (Linux)
 --------------------
-Datei iest.bbx nach /usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx kopieren.
-
-Datei iest.cbx nach /usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx kopieren.
-
-Programm texhash ausführen.
+- Kopieren der Datei iest.cbx nach ~/texmf/tex/latex/biblatex/cbx
+- Kopieren der Datei iest.bbx nach ~/texmf/tex/latex/biblatex/bbx
+- Ausführen von texhash ~/texmf
 
 Systeme
 =======
