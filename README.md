@@ -13,11 +13,15 @@ Damit wird eine Vorgabe des Instituts für Eisen- und Stahltechnologie der TU Be
 
 Ein Artikel über den Stil findet sich unter http://texwelt.de/blog/modifizieren-eines-biblatex-stils/
 
-Installation (Linux)
---------------------
-- Kopieren der Datei iest.cbx nach ~/texmf/tex/latex/biblatex/cbx
-- Kopieren der Datei iest.bbx nach ~/texmf/tex/latex/biblatex/bbx
-- Ausführen von texhash ~/texmf
+Installation in TeX Live
+------------------------
+- Kopieren der Datei <tt>iest.cbx</tt> nach <tt>~/texmf/tex/latex/biblatex/cbx</tt>
+- Kopieren der Datei <tt>iest.bbx</tt> nach <tt>~/texmf/tex/latex/biblatex/bbx</tt>
+
+Installation in MacTeX
+----------------------
+- Kopieren der Datei <tt>iest.cbx</tt> nach <tt>~/Library/texmf/tex/latex/biblatex/cbx</tt>
+- Kopieren der Datei <tt>iest.bbx</tt> nach <tt>~/Library/texmf/tex/latex/biblatex/bbx</tt>
 
 Systeme
 =======
