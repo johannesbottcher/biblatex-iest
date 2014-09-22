@@ -6,7 +6,7 @@
 % http://bitbucket.org/Ekkehardt
 % http://github.com/Ekkehardt
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% BEGINN Anpassung Namensformat für IEST 25.07.2014
+% BEGINN Anpassung Namensformat für IEST 22.09.2014
 												   
 % Namensformat: Nachname, V.						
 \DeclareNameFormat{tubafshort}{%
@@ -20,6 +20,9 @@
 
 % Namensfelder mit Doppelpunkt abschließen
 \renewcommand*{\labelnamepunct}{\addcolon\addspace}
+
+% mehrere Autoren mit 'et al.' abkürzen
+\DefineBibliographyStrings{ngerman}{andothers={et\addabbrvspace al\adddot}}
 
 % ENDE der Anpassungen
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
