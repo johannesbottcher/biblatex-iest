@@ -27,9 +27,9 @@ Installation in MacTeX
 Installation in MikTeX
 ----------------------
 <ol>
-<li>Anlegen eines privaten Baumes, z. B. unter ~/texmf (muss außerhalb des Verzeichnisses der MikTeX-Installation liegen)
-<li>Kopieren der Datei iest.cbx nach ~/texmf/tex/latex/biblatex/cbx
-<li>Kopieren der Datei iest.bbx nach ~/texmf/tex/latex/biblatex/bbx
+<li>Anlegen eines privaten Baumes, z. B. unter <tt>~/texmf</tt> (muss außerhalb des Verzeichnisses der MikTeX-Installation liegen)
+<li>Kopieren der Datei <tt>iest.cbx</tt> nach <tt>~/texmf/tex/latex/biblatex/cbx</tt>
+<li>Kopieren der Datei <tt>iest.bbx</tt> nach <tt>~/texmf/tex/latex/biblatex/bbx</tt>
 <li>Registrieren des privaten Baumes als „Root“
 	<ol>
 		<li>MikTeX Settings starten
