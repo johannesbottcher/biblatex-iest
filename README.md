@@ -16,20 +16,18 @@ Ein Artikel über den Stil findet sich unter http://texwelt.de/blog/modifizieren
 
 Installation in TeX Live
 ------------------------
-- Kopieren der Datei <tt>iest.cbx</tt> nach <tt>~/texmf/tex/latex/biblatex/cbx</tt>
-- Kopieren der Datei <tt>iest.bbx</tt> nach <tt>~/texmf/tex/latex/biblatex/bbx</tt>
+- Kopieren der Dateien <tt>iest.cbx</tt> und <tt>iest.bbx</tt>nach <tt>~/texmf/tex/latex/biblatex-iest/</tt>
+
 
 Installation in MacTeX
 ----------------------
-- Kopieren der Datei <tt>iest.cbx</tt> nach <tt>~/Library/texmf/tex/latex/biblatex/cbx</tt>
-- Kopieren der Datei <tt>iest.bbx</tt> nach <tt>~/Library/texmf/tex/latex/biblatex/bbx</tt>
+- Kopieren der Dateien <tt>iest.cbx</tt> und <tt>iest.bbx</tt> nach <tt>~/Library/texmf/tex/latex/biblatex-iest/</tt>
 
 Installation in MikTeX
 ----------------------
 <ol>
 <li>Anlegen eines privaten Baumes, z. B. unter <tt>~/texmf</tt> (muss außerhalb des Verzeichnisses der MikTeX-Installation liegen)
-<li>Kopieren der Datei <tt>iest.cbx</tt> nach <tt>~/texmf/tex/latex/biblatex/cbx</tt>
-<li>Kopieren der Datei <tt>iest.bbx</tt> nach <tt>~/texmf/tex/latex/biblatex/bbx</tt>
+<li>Kopieren der Dateien <tt>iest.cbx</tt> und <tt>iest.bbx</tt> nach <tt>~/texmf/tex/latex/biblatex-iest/</tt>
 <li>Registrieren des privaten Baumes als „Root“
 	<ol>
 		<li>MikTeX Settings starten
