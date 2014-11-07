@@ -13,6 +13,7 @@ Der biblatex-Bibliografiestil iest verhält sich wie der Standardstil numeric-co
 Damit wird eine Vorgabe des Instituts für Eisen- und Stahltechnologie der TU Bergakademie Freiberg umgesetzt.
 
 Ein Artikel über den Stil findet sich unter http://texwelt.de/blog/modifizieren-eines-biblatex-stils/
+Eine laufend aktualisiserte druckbare PDF-Version des Artikels ist unter http://github.com/Ekkehardt/dok-biblatex-iest gehostet.
 
 Installation in TeX Live
 ------------------------
