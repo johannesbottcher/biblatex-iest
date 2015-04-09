@@ -41,10 +41,10 @@ Installation in MikTeX
 </ol>
 
 Systeme
-=======
+-------
 plattformunabhängig
 
-Gestestet mit Texlive 2013 unter Ubuntu 14.04 LTS mit dem Paket tubaf-base.
+Gestestet mit Texlive 2014 unter Ubuntu 14.04 LTS mit dem Paket tubaf-base.
 
 
 
