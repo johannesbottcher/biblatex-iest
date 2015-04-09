@@ -1,0 +1,14 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\title{Beispiel zum biblatex-Stil \glqq iest\grqq}
+\usepackage[style=iest,backend=biber,sorting=none]{biblatex}
+\addbibresource{quellen-iest.bib}
+\begin{document}
+
+Heute zitieren wir nur drei Werke. Zum einen ein Nachschlagewerk von vier Autoren \autocite{Binomi2004}. Zum anderen ein Lehrbuch der Werkstoffkunde \autocite{Bargel2012}. Unsere dritte und letzte Quelle ist ein Zeitschriftenartikel \autocite{Detert1963}. Man kann auch alle Quellen gemeinsam zitieren, was hier verkürzt dargestellt wird: \autocite{Bargel2012,Binomi2004,Detert1963}.
+
+\printbibliography
+
+\end{document}
