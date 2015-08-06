@@ -46,7 +46,7 @@ Systeme
 -------
 plattformunabhängig
 
-Gestestet mit TeX Live 2014 und 2015 unter Ubuntu 14.04 LTS mit dem Paket tubaf-base (Corporate Design der TU Bergakademie Freiberg) sowie scrbook und scrartcl.
+Getestet mit TeX Live 2014 und 2015 unter Ubuntu 14.04 LTS mit dem Paket tubaf-base (Corporate Design der TU Bergakademie Freiberg) sowie scrbook und scrartcl.
 
 Referenzen
 ----------
