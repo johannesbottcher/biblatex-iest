@@ -14,6 +14,7 @@ Damit wird eine Vorgabe des Instituts für Eisen- und Stahltechnologie der TU Be
 
 Ein Artikel über den Stil findet sich unter http://texwelt.de/blog/modifizieren-eines-biblatex-stils/.
 Eine laufend aktualisierte druckoptimierte PDF-Version des Artikels ist unter http://github.com/Ekkehardt/dok-biblatex-iest gehostet.
+Im August 2015 wurde eine aktualisierte Fassung des Artikels in freiesMagazin veröffentlicht: http://www.freiesmagazin.de/ftp/2015/freiesMagazin-2015-08.pdf
 
 Installation in TeX Live
 ------------------------
@@ -53,6 +54,4 @@ Referenzen
 
 Lizenz
 ------
-Der `biblatex`-Stil `iest` steht unter der LPPL 1.3.
-
-
+Der biblatex-Stil `iest` steht unter der LPPL 1.3.
