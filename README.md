@@ -18,10 +18,12 @@ Eine laufend aktualisierte druckoptimierte PDF-Version des Artikels ist unter ht
 Installation in TeX Live
 ------------------------
 - Kopieren der Dateien <tt>iest.cbx</tt> und <tt>iest.bbx</tt>nach <tt>~/texmf/tex/latex/biblatex-iest/</tt>
+  Der Verzeichnisbaum muss gegebenenfalls (für den Benutzer lesbar) angelegt werden.
 
 Installation in MacTeX
 ----------------------
 - Kopieren der Dateien <tt>iest.cbx</tt> und <tt>iest.bbx</tt> nach <tt>~/Library/texmf/tex/latex/biblatex-iest/</tt>
+  Der Verzeichnisbaum muss gegebenenfalls (für den Benutzer lesbar) angelegt werden.
 
 Installation in MikTeX
 ----------------------
@@ -43,12 +45,14 @@ Systeme
 -------
 plattformunabhängig
 
-Gestestet mit Texlive 2014 unter Ubuntu 14.04 LTS mit dem Paket tubaf-base (Corporate Design der TU Bergakademie Freiberg) sowie scrbook und scrartcl.
+Gestestet mit TeX Live 2014 und 2015 unter Ubuntu 14.04 LTS mit dem Paket tubaf-base (Corporate Design der TU Bergakademie Freiberg) sowie scrbook und scrartcl.
 
 Referenzen
 ----------
 Über das IEST hinaus wurde der Stil `iest` für den Tagungsband des XXII. International Students' Day of Metallurgy (ISDM) 2015 verwendet. Der ISDM 2015 fand im Mai 2015 an der RWTH Aachen University statt.
 
-
+Lizenz
+------
+Der `biblatex`-Stil `iest` steht unter der LPPL 1.3.
 
 
