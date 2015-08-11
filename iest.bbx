@@ -22,23 +22,24 @@
 \ProvidesFile{iest.bbx}
 \RequireBibliographyStyle{numeric-comp}
 
-% BEGINN Anpassung Namensformat für IEST 04.11.2014
+% BEGINN Anpassung Namensformat für IEST 11.08
+% Namensformat Nachname, Vorname
+\DeclareNameAlias{default}{last-first} 
 												   
-% Namensformat: Nachname, V.						
-\DeclareNameFormat{tubafshort}{%
-\usebibmacro{name:last-first}{#1}{#4}{#5}{#7}%
-\usebibmacro{name:andothers}}
-
-% neues Namensformat für alle Namen wählen
-\DeclareNameAlias{author}{tubafshort}
-\DeclareNameAlias{editor}{tubafshort}
-\DeclareNameAlias{translator}{tubafshort}
-
 % Namensfelder mit Doppelpunkt abschließen
 \renewcommand*{\labelnamepunct}{\addcolon\addspace}
 
 % mehrere Autoren mit 'et al.' abkürzen
 \DefineBibliographyStrings{ngerman}{andothers={et\addabbrvspace al\adddot}}
+
+% Anpassung der Reihenfolge Verlag, Ort, Datum
+\renewbibmacro*{publisher+location+date}{%
+  \printlist{publisher}%
+  \setunit*{\addcomma\space}
+  \printlist{location}%
+  \setunit*{\addcomma\space}
+  \usebibmacro{date}%
+  \newunit}
 
 % ENDE der Anpassungen
 
