@@ -7,8 +7,11 @@ Der biblatex-Bibliografiestil iest verhält sich wie der Standardstil `numeric-c
 
 - Autoren- Herausgeber- und Übersetzerangabe als Nachname, Vorname
 - durchgehende Angabe der Vornamen als Initialen
-- Doppelpunkt nach dem letzten Autoren- Herausgeber- und Übersetzernamen
 - Abkürzen der Autorenliste mit "et al." statt "u. a." bei mehr als drei Autoren
+- Doppelpunkt nach dem letzten Autoren- Herausgeber- und Übersetzernamen
+- Verlagsangabe als Verlag, Ort, Datum
+- Sortierung der Bibliografie nach Zitationsreihenfolge
+- Flattersatz in der Bibliografie
 
 Damit wird eine Vorgabe des Instituts für Eisen- und Stahltechnologie der TU Bergakademie Freiberg (IEST) umgesetzt.
 

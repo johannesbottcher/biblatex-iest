@@ -13,6 +13,8 @@
 % 
 % The Current Maintainer of this work is E. Frank Sandig.
 %
+% Contributors to this work are Johannes Böttcher and moewew.
+%
 % This work consists of the files iest.bbx and iest.cbx.
 %
 % E. Frank Sandig, TU Bergakademie Freiberg
@@ -22,7 +24,11 @@
 \ProvidesFile{iest.bbx}
 \RequireBibliographyStyle{numeric-comp}
 
-% BEGINN Anpassung Namensformat für IEST 11.08
+% BEGINN Anpassung für IEST 12.08.2015
+
+% Optionen: Initialen, Sortierung, Flattersatz
+\ExecuteBibliographyOptions{firstinits=true,sorting=none,block=ragged}
+
 % Namensformat Nachname, Vorname
 \DeclareNameAlias{default}{last-first} 
 												   
