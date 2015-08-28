@@ -3,7 +3,7 @@ biblatex-iest
 
 Bibliografiestil für das IEST
 -----------------------------
-Der biblatex-Bibliografiestil iest verhält sich wie der Standardstil `numeric-comp` mit folgenden Abweichungen:
+Der biblatex-Bibliografiestil `iest` verhält sich wie der Standardstil `numeric-comp` mit folgenden Abweichungen:
 
 - Autoren- Herausgeber- und Übersetzerangabe als Nachname, Vorname
 - durchgehende Angabe der Vornamen als Initialen
@@ -17,7 +17,8 @@ Damit wird eine Vorgabe des Instituts für Eisen- und Stahltechnologie der TU Be
 
 Ein Artikel über den Stil findet sich unter http://texwelt.de/blog/modifizieren-eines-biblatex-stils/.
 Eine laufend aktualisierte druckoptimierte PDF-Version des Artikels ist unter http://github.com/Ekkehardt/dok-biblatex-iest gehostet.
-Im August 2015 wurde eine aktualisierte Fassung des Artikels in freiesMagazin veröffentlicht: http://www.freiesmagazin.de/ftp/2015/freiesMagazin-2015-08.pdf
+Im August 2015 wurde eine aktualisierte Fassung des Artikels in freiesMagazin veröffentlicht: http://www.freiesmagazin.de/ftp/2015/freiesMagazin-2015-08.pdf.
+Am 27.08.2015 wurde diese Fassung von pro-Linux aufgegriffen: http://www.pro-linux.de/artikel/2/1787/modifizieren-eines-biblatex-stils.html.
 
 Installation in TeX Live
 ------------------------
