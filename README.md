@@ -3,7 +3,7 @@ biblatex-iest
 
 Bibliografiestil für das IEST
 -----------------------------
-Der biblatex-Bibliografiestil `iest` verhält sich wie der Standardstil `numeric-comp` mit folgenden Abweichungen:
+Der Biblatex-Stil `iest` verhält sich wie der Standardstil `numeric-comp` mit folgenden Abweichungen:
 
 - Autoren- Herausgeber- und Übersetzerangabe als Nachname, Vorname
 - durchgehende Angabe der Vornamen als Initialen
